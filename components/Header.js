@@ -14,7 +14,7 @@ const Logo = () => {
       <div>
         <Link href="/">
           <h1 className="text-purple text-blue-700 font-bold text-5xl text-center">
-            Foode
+            Recipefi
           </h1>
         </Link>
       </div>
