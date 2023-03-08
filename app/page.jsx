@@ -6,18 +6,17 @@ export default async function Home() {
       <div className="text-center w-4/5 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 server">
         <h1 className="text-5xl my-8">Learn. Cook. Share</h1>
         <h4 className="text-3xl my-8">Cooking made easy</h4>
-        <Link
-          className="shadow-gray-50 bg-gray-300 rounded text-xl py-2 px-4 margin-left : 40px cursor-pointer hover:bg-blue-500 hover:text-white"
+        <Link 
+          className="shadow-gray-50 bg-gray-300 rounded text-xl py-2 px-4 cursor-pointer hover:bg-blue-500 hover:text-white "
           href="/types"
         >
           List of Cuisines
         </Link>
 
         <Link
-          className="shadow-gray-50 bg-gray-300 rounded text-xl py-2 px-4 margin-right : 45px cursor-pointer hover:bg-blue-500 hover:text-white"
-          href="/types"
-        >
-          Sign Up
+          className="shadow-gray-50 bg-gray-300 rounded text-xl py-2 px-4  cursor-pointer hover:bg-blue-500 hover:text-white"
+        ><input style="margin-right: 16px" type="submit">
+          Sign Up</input>
         </Link>
       </div>
     </div>
