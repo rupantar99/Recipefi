@@ -14,9 +14,9 @@ export default async function Home() {
         </Link>
 
         <Link
-          className="shadow-gray-50 bg-gray-300 rounded text-xl py-2 px-4  cursor-pointer hover:bg-blue-500 hover:text-white"
-        ><input style="margin-right: 16px" type="submit">
-          Sign Up</input>
+          className="shadow-gray-50 bg-gray-300 rounded text-xl py-2 px-4  cursor-pointer hover:bg-blue-500 hover:text-white" style="margin-right: 16px"
+        >
+          Sign Up
         </Link>
       </div>
     </div>
